@@ -1,0 +1,43 @@
+body, html {
+  height: 100vh;
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  overflow-x: hidden;
+  padding: 0px;
+  position: relative;
+  width: 100vw;
+}
+
+a {
+  color: #9DB6A6;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 img {
+  box-sizing: border-box;
+  padding: 0 25px;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+.block {
+  box-sizing: border-box;
+  left: 50%;
+  max-width: 575px;
+  padding: 25px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}

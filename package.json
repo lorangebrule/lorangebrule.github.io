@@ -1,0 +1,23 @@
+{
+  "name": "lorangebrule.github.io",
+  "version": "1.0.0",
+  "description": "Landing page of lorangebrule.com.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "serve public --no-clipboard --no-compression --no-port-switching",
+    "test": "echo \"No test needed\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorangebrule/lorangebrule.github.io.git"
+  },
+  "author": "Gabriel Santerre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lorangebrule/lorangebrule.github.io/issues"
+  },
+  "homepage": "https://github.com/lorangebrule/lorangebrule.github.io#readme",
+  "devDependencies": {
+    "serve": "^12.0.1"
+  }
+}
